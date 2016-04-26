@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <TextView
+            android:id="@+id/tep1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content" 
+            android:layout_weight="1"
+            android:text="温度" />
+
+        <TextView
+            android:id="@+id/tep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tep2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="℃"
+            android:layout_weight="2" />
+          <TextView
+            android:id="@+id/_cur1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电流" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/cur"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/cur2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:layout_weight="2" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/vol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="电压" />
+
+        <TextView
+            android:id="@+id/vol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/vol2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:layout_weight="2" />
+          <TextView
+            android:id="@+id/spe1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/spe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/spe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km/h"
+            android:layout_weight="2" />
+   
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/deg11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:text="航向角" />
+
+        <TextView
+            android:id="@+id/deg1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/deg12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°"
+            android:layout_weight="2" />
+          <TextView
+            android:id="@+id/deg21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="俯仰角" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/deg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/deg22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°"
+            android:layout_weight="2" />
+        
+        <TextView
+            android:id="@+id/deg31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="横滚角" 
+            android:layout_weight="1"/>
+          <TextView
+            android:id="@+id/deg3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" 
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/deg32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="°"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+</LinearLayout>

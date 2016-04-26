@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- 当你的应用程序目标设为蜂巢平台时，你可以利用Action Bar部件提供的全部功能，将你的选项菜单项放在Action Bar的右上角，对用户来说使用更方便，控制该行为的主菜单项属性是android:showAsAction。
+　　这个属性可接受的值有：
+　　1、always：这个值会使菜单项一直显示在Action Bar上。
+　　2、ifRoom：如果有足够的空间，这个值会使菜单项显示在Action Bar上。
+　　3、never：这个值使菜单项永远都不出现在Action Bar上。
+　　4、withText：这个值使菜单项和它的图标，菜单文本一起显示。 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_refresh"
+          android:title=""
+          android:checkable="false"
+          android:orderInCategory="1"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_scan"
+          android:title="扫描"
+          android:orderInCategory="100"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_stop"
+          android:title="停止"
+          android:orderInCategory="101"
+          android:showAsAction="ifRoom|withText"/>
+    <item android:id="@+id/menu_connect"
+          android:title="连接"
+          android:checkable="false"
+          android:orderInCategory="102"
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/menu_disconnect"
+          android:title="断开"
+          android:orderInCategory="103"
+          android:showAsAction="ifRoom|withText"/>
+</menu>
